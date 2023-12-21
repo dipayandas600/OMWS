@@ -29,7 +29,7 @@
 
 .navber-section nav .meddle ul{
     display: flex;
-    gap: 48.88px;
+    gap: 44px;
 }
 
 .navber-section nav .meddle ul li{
@@ -88,4 +88,30 @@
     background-color: whitesmoke;
     height: 16.88vh;
     border-radius: 8.88px;
+}
+
+/* ==== SUB-CONTAINER-SECTION-START ==== */
+
+/* ---- SUB-CONTAINER-1-START ---- */
+
+.body-section .main-container .sub-container-1 .card-container-1{
+    display: flex;
+    gap: 16.88px;
+}
+
+.body-section .main-container .sub-container-1 .card-container-1 .card-1{
+    border: 2.88px solid black;
+    width: 144.88px;
+    height: 216px;
+    border-radius: 8.88px;
+    margin: 0 auto;
+}
+
+.body-section .main-container .sub-container-1 .card-container-1 .card-1 .card-text{
+    text-align: center;
+}
+
+.body-section .main-container .sub-container-1 .card-container-1 .card-1 .download-button a{
+    text-decoration: none;
+    color: black;
 }
