@@ -72,3 +72,20 @@
 }
 
 /* ---- NAVBER-SECTION-COMPLETE ---- */
+
+/* ======== HEADER-SECTION-COMPLETE ======== */
+
+/* ======== BODY-SECTION-START ======== */
+
+.body-section{
+    /* background-color: darkgray; */
+    height: 8.88vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.body-section .main-container{
+    background-color: whitesmoke;
+    height: 16.88vh;
+    border-radius: 8.88px;
+}
