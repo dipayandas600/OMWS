@@ -81,11 +81,11 @@
     /* background-color: darkgray; */
     height: 8.88vh;
     max-width: 80vw;
-    margin: auto;
+    margin: 8px auto;
 }
 
 .body-section .main-container{
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     height: 16.88vh;
     border-radius: 8.88px;
 }
@@ -94,12 +94,20 @@
 
 /* ---- SUB-CONTAINER-1-START ---- */
 
-.body-section .main-container .sub-container-1 .card-container-1{
-    display: flex;
-    gap: 16.88px;
+.body-section .main-container .sub-container-1 .movie-container-1{
+    background-color: whitesmoke;
+    height: 44.88vh;
+    border-radius: 8.88px;
 }
 
-.body-section .main-container .sub-container-1 .card-container-1 .card-1{
+.body-section .main-container .sub-container-1 .movie-container-1 .card-container-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16.88px;
+    margin: 34.88px 0 34.88px 0;
+}
+
+.body-section .main-container .sub-container-1 .movie-container-1 .card-container-1 .card-1{
     border: 2.88px solid black;
     width: 144.88px;
     height: 216px;
@@ -107,11 +115,16 @@
     margin: 0 auto;
 }
 
-.body-section .main-container .sub-container-1 .card-container-1 .card-1 .card-text{
+.body-section .main-container .sub-container-1 .movie-container-1 .card-container-1 .card-1 .card-text{
     text-align: center;
 }
 
-.body-section .main-container .sub-container-1 .card-container-1 .card-1 .download-button a{
+.body-section .main-container .sub-container-1 .movie-container-1 .card-container-1 .card-1 .download-button{
+    margin-left: 26.88px;
+    padding: 8px 16px 8px 16px;
+}
+
+.body-section .main-container .sub-container-1 .movie-container-1 .card-container-1 .card-1 .download-button a{
     text-decoration: none;
     color: black;
 }
