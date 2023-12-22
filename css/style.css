@@ -94,10 +94,18 @@
 
 /* ---- SUB-CONTAINER-1-START ---- */
 
+/* ---- MOVIE-CONTAINER-1-START ---- */
+
 .body-section .main-container .sub-container-1 .movie-container-1{
     background-color: whitesmoke;
     height: 44.88vh;
     border-radius: 8.88px;
+}
+
+.body-section .main-container .sub-container-1 .movie-container-1 h1{
+    margin: 0 0 0 16.88px;
+    letter-spacing: 8.88px;
+    padding: 16.88px 0 0 0;
 }
 
 .body-section .main-container .sub-container-1 .movie-container-1 .card-container-1{
@@ -128,3 +136,21 @@
     text-decoration: none;
     color: black;
 }
+
+.body-section .main-container .sub-container-1 .movie-container-1 .see-more-button-1{
+    margin-left: 688.88px;
+}
+
+.body-section .main-container .sub-container-1 .movie-container-1 .see-more-button-1 .see-more-1{
+    padding: 16px 34px 16px 34px;
+}
+
+.body-section .main-container .sub-container-1 .movie-container-1 .see-more-button-1 .see-more-1 a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4.88px;
+}
+
+/* ---- MOVIE-CONTAINER-1-COMPLETE ---- */
+
+/* ---- SUB-CONTAINER-1-COMPLETE ---- */
