@@ -123,16 +123,16 @@
     margin: 0 auto;
 }
 
-.body-section .main-container .sub-container-1 .movie-container-1 .card-container-1 .card-1 .card-text{
+.body-section .main-container .sub-container-1 .movie-container-1 .card-container-1 .card-1 .card-text-1{
     text-align: center;
 }
 
-.body-section .main-container .sub-container-1 .movie-container-1 .card-container-1 .card-1 .download-button{
+.body-section .main-container .sub-container-1 .movie-container-1 .card-container-1 .card-1 .download-button-1{
     margin-left: 26.88px;
     padding: 8px 16px 8px 16px;
 }
 
-.body-section .main-container .sub-container-1 .movie-container-1 .card-container-1 .card-1 .download-button a{
+.body-section .main-container .sub-container-1 .movie-container-1 .card-container-1 .card-1 .download-button-1 a{
     text-decoration: none;
     color: black;
 }
@@ -154,3 +154,66 @@
 /* ---- MOVIE-CONTAINER-1-COMPLETE ---- */
 
 /* ---- SUB-CONTAINER-1-COMPLETE ---- */
+
+/* ---- SUB-CONTAINER-2-START ---- */
+
+/* ---- MOVIE-CONTAINER-2-START ---- */
+
+.body-section .main-container .sub-container-2 .movie-container-2{
+    background-color: whitesmoke;
+    height: 44.88vh;
+    border-radius: 8.88px;
+}
+
+.body-section .main-container .sub-container-2 .movie-container-2 h1{
+    margin: 0 0 0 16.88px;
+    letter-spacing: 8.88px;
+    padding: 16.88px 0 0 0;
+}
+
+.body-section .main-container .sub-container-2 .movie-container-2 .card-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16.88px;
+    margin: 34.88px 0 34.88px 0;
+}
+
+.body-section .main-container .sub-container-2 .movie-container-2 .card-container-2 .card-2{
+    border: 2.88px solid black;
+    width: 144.88px;
+    height: 216px;
+    border-radius: 8.88px;
+    margin: 0 auto;
+}
+
+.body-section .main-container .sub-container-2 .movie-container-2 .card-container-2 .card-2 .card-text-2{
+    text-align: center;
+}
+
+.body-section .main-container .sub-container-2 .movie-container-2 .card-container-2 .card-2 .download-button-2{
+    margin-left: 26.88px;
+    padding: 8px 16px 8px 16px;
+}
+
+.body-section .main-container .sub-container-2 .movie-container-2 .card-container-2 .card-2 .download-button-2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.body-section .main-container .sub-container-2 .movie-container-2 .see-more-button-2{
+    margin-left: 688.88px;
+}
+
+.body-section .main-container .sub-container-2 .movie-container-2 .see-more-button-2 .see-more-2{
+    padding: 16px 34px 16px 34px;
+}
+
+.body-section .main-container .sub-container-2 .movie-container-2 .see-more-button-2 .see-more-2 a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4.88px;
+}
+
+/* ---- MOVIE-CONTAINER-2-COMPLETE ---- */
+
+/* ---- SUB-CONTAINER-2-COMPLETE ---- */
