@@ -288,3 +288,70 @@
 /* ---- MOVIE-CONTAINER-3-COMPLETE ---- */
 
 /* ---- SUB-CONTAINER-3-COMPLETE ---- */
+
+/* ---- SUB-CONTAINER-4-START ---- */
+
+.body-section .main-container .sub-container-4{
+    margin: 8px auto;
+}
+
+/* ---- MOVIE-CONTAINER-4-START ---- */
+
+.body-section .main-container .sub-container-4 .movie-container-4{
+    background-color: whitesmoke;
+    height: 44.88vh;
+    border-radius: 8.88px;
+}
+
+.body-section .main-container .sub-container-4 .movie-container-4 h1{
+    margin: 0 0 0 16.88px;
+    letter-spacing: 8.88px;
+    padding: 16.88px 0 0 0;
+}
+
+.body-section .main-container .sub-container-4 .movie-container-4 .card-container-4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16.88px;
+    margin: 34.88px 0 34.88px 0;
+}
+
+.body-section .main-container .sub-container-4 .movie-container-4 .card-container-4 .card-4{
+    border: 2.88px solid black;
+    width: 144.88px;
+    height: 216px;
+    border-radius: 8.88px;
+    margin: 0 auto;
+}
+
+.body-section .main-container .sub-container-4 .movie-container-4 .card-container-4 .card-4 .card-text-4{
+    text-align: center;
+}
+
+.body-section .main-container .sub-container-4 .movie-container-4 .card-container-4 .card-4 .download-button-4{
+    margin-left: 26.88px;
+    padding: 8px 16px 8px 16px;
+}
+
+.body-section .main-container .sub-container-4 .movie-container-4 .card-container-4 .card-4 .download-button-4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.body-section .main-container .sub-container-4 .movie-container-4 .see-more-button-4{
+    margin-left: 688.88px;
+}
+
+.body-section .main-container .sub-container-4 .movie-container-4 .see-more-button-4 .see-more-4{
+    padding: 16px 34px 16px 34px;
+}
+
+.body-section .main-container .sub-container-4 .movie-container-4 .see-more-button-4 .see-more-4 a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4.88px;
+}
+
+/* ---- MOVIE-CONTAINER-4-COMPLETE ---- */
+
+/* ---- SUB-CONTAINER-4-COMPLETE ---- */
