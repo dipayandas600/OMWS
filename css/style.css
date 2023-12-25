@@ -29,7 +29,7 @@
 
 .navber-section nav .meddle ul{
     display: flex;
-    gap: 44px;
+    gap: 26px;
 }
 
 .navber-section nav .meddle ul li{
@@ -40,7 +40,7 @@
     text-decoration: none;
     color: white;
     letter-spacing: 4.88px;
-    font-size: 26.88px;
+    font-size: 16.88px;
 }
 
 .navber-section nav .meddle ul li a:hover{
@@ -157,6 +157,10 @@
 
 /* ---- SUB-CONTAINER-2-START ---- */
 
+.body-section .main-container .sub-container-2{
+    margin: 8px auto;
+}
+
 /* ---- MOVIE-CONTAINER-2-START ---- */
 
 .body-section .main-container .sub-container-2 .movie-container-2{
@@ -219,6 +223,10 @@
 /* ---- SUB-CONTAINER-2-COMPLETE ---- */
 
 /* ---- SUB-CONTAINER-3-START ---- */
+
+.body-section .main-container .sub-container-3{
+    margin: 8px auto;
+}
 
 /* ---- MOVIE-CONTAINER-3-START ---- */
 
