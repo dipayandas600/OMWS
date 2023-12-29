@@ -1,0 +1,36 @@
+/* ======== BODY-SECTION-START ======== */
+
+.body-section{
+    background-color: whitesmoke;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.body-section .container .row{
+    display: flex;
+    gap: 16.88px;
+}
+
+.body-section .container .row .card{
+    border: 2px solid black;
+    width: 154px;
+    height: 216px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.body-section .container .row .card .text{
+    text-align: center;
+}
+
+.body-section .container .row .card .download-button{
+    margin-left: 26.88px;
+    padding: 8px 16px 8px 16px;
+}
+
+.body-section .container .row .card .download-button a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ======== BODY-SECTION-COMPLETE ======== */
