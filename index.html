@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,44 +16,81 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        /* li a {
+            color: white;
+        }
+
+        .site-logo {
+            color: white;
+
+        } */
+
+        body {
+            overflow-x: hidden;
+        }
+
+        ul {
+            height: 47px;
+            width: 100%;
+        }
+
+        .web-logo {
+            padding: 11px;
+        }
+
+        /* span {
+            color: aliceblue;
+        } */
+
+        .menu-burger {
+            display: none;
+        }
+
+
+        @media screen and (max-width:800px) {
+            .nav-item {
+                display: none;
+            }
+
+            .menu-burger {
+                display: block;
+                padding: 31px;
+            }
+
+            ul {
+                height: 100px;
+                width: 225%;
+            }
+
+            .web-logo {
+                padding: 31px;
+            }
+        }
+    </style>
 
 </head>
+
 <body>
     <!-- HEADER-SECTION-START -->
-    <section class="header-section">
-
-        <!-- NAVBER-SECTION-START -->
-        <section class="navber-section">
-
-            <nav>
-                <div class="left-side">
-                    <h1 class="logo">WebMovie</h1>
-                </div>
-
-                <div class="meddle">
-                    <div class="navber-links">
-                        <ul>
-                            <li><a href="..">HOME</a></li>
-                            <li><a href="..">NETFLIX</a></li>
-                            <li><a href="..">DISNEY + HOTSTAR</a></li>
-                            <li><a href="./bengali-movie.html" target="_blank">BENGALI</a></li>
-                            <li><a href="./hindi-movie.html" target="_blank">HINDI</a></li>
-                            <li><a href="./english-movie.html" target="_blank">ENGLISH</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="right-side">
-                    <div class="search-box">
-                        <input type="text" placeholder="search here" id="search"><button class="search-button"></button>
-                    </div>
-                </div>
-            </nav>
-
-        </section>
-        <!-- NAVBER-SECTION-END -->
-
-    </section>
+    <!-- NAVBER-SECTION-START -->
+    <nav>
+        <ul>
+            <div class="web-logo"><span>Web site</span></div>
+            <li class="nav-item"><a href="..">HOME</a></li>
+            <li class="nav-item"><a href="..">NETFLIX</a></li>
+            <li class="nav-item"><a href="./bengali-movie.html" target="_blank">BENGALI</a></li>
+            <li class="nav-item"><a href="./hindi-movie.html" target="_blank">HINDI</a></li>
+            <li class="nav-item"><a href="./english-movie.html" target="_blank">ENGLISH</a></li>
+            <li class="menu-burger"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                    viewBox="0 0 50 50">
+                    <path
+                        d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z">
+                    </path>
+                </svg></li>
+        </ul>
+    </nav>
+    <!-- NAVBER-SECTION-END -->
     <!-- HEADER-SECTION-END -->
 
     <!-- BODY-SECTION-START -->
@@ -123,12 +161,13 @@
                         </div>
 
                         <div class="see-more-button-1">
-                            <button class="see-more-1"><a href="./bengali-movie.html" target="-blank">See More</a></button>
+                            <button class="see-more-1"><a href="./bengali-movie.html" target="-blank">See
+                                    More</a></button>
                         </div>
 
                     </div>
                     <!-- MOVIE-CONTAINER-1-END -->
-            
+
                 </div>
                 <!-- SUB-CONTAINER-1-END -->
 
@@ -192,12 +231,13 @@
                         </div>
 
                         <div class="see-more-button-2">
-                            <button class="see-more-2"><a href="./hindi-movie.html" target="_blank">See More</a></button>
+                            <button class="see-more-2"><a href="./hindi-movie.html" target="_blank">See
+                                    More</a></button>
                         </div>
 
                     </div>
                     <!-- MOVIE-CONTAINER-2-END -->
-                  
+
                 </div>
                 <!-- SUB-CONTAINER-2-END -->
 
@@ -261,12 +301,13 @@
                         </div>
 
                         <div class="see-more-button-3">
-                            <button class="see-more-3"><a href="./english-movie.html" target="_blank">See More</a></button>
+                            <button class="see-more-3"><a href="./english-movie.html" target="_blank">See
+                                    More</a></button>
                         </div>
 
                     </div>
                     <!-- MOVIE-CONTAINER-3-END -->
-                  
+
                 </div>
                 <!-- SUB-CONTAINER-3-END -->
 
@@ -335,7 +376,7 @@
 
                     </div>
                     <!-- MOVIE-CONTAINER-4-END -->
-                  
+
                 </div>
                 <!-- SUB-CONTAINER-4-END -->
 
@@ -404,7 +445,7 @@
 
                     </div>
                     <!-- MOVIE-CONTAINER-5-END -->
-                  
+
                 </div>
                 <!-- SUB-CONTAINER-5-END -->
 
@@ -416,4 +457,5 @@
     </section>
     <!-- BODY-SECTION-END -->
 </body>
+
 </html>
