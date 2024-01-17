@@ -9,6 +9,7 @@ body {
     padding: 0;
     top: -16px;
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* .header-section {
@@ -17,7 +18,7 @@ body {
 
 /* ---- NAVBER-SECTION-START ---- */
 
-ul {
+.nav-bar {
     display: flex;
     position: relative;
     background-color: darkgray;
