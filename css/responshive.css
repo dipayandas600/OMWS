@@ -1,11 +1,5 @@
-/* ======== HEADER-SECTION-START ======== */
-
-/* ---- NAVBER-SECTION-START ---- */
-
-/* ---- NAVBER-SECTION-COMPLETE ---- */
-
-/* ======== HEADER-SECTION-COMPLETE ======== */
-
-/* ======== BODY-SECTION-START ======== */
-
-/* ======== BODY-SECTION-COMPLETE ======== */
+@media screen and (max-width: 434px){
+    .body-section .movie-banner .text{
+        font-size: 34px;
+    }
+}

@@ -1,40 +1,38 @@
 /* ======== BODY-SECTION-START ======== */
 
-.body-section{
-    background-color: whitesmoke;
-    height: 100%;
-    border-radius: 8px;
+body{
+    background-color: black;
+    background-size: 100%;
 }
 
-.body-section h1{
+.body-section .movie-banner .movie-image{
+    /* margin: 8px 0 0 816px; */
+    margin-top: 8px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.body-section .movie-banner .text{
     text-align: center;
+    font-size: 4em;
+    font-weight: bold;
 }
 
-.body-section .container .row{
-    display: flex;
-    gap: 16.88px;
-}
-
-.body-section .container .row .card{
-    border: 2px solid black;
-    width: 154px;
-    height: 216px;
+.body-section .movie-banner .download-button{
+    /* margin: 0 0 0 916px; */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 8px;
-    margin: auto;
+    border: none;
+    padding: 16px 34px 16px 34px;
 }
 
-.body-section .container .row .card .text{
-    text-align: center;
-}
-
-.body-section .container .row .card .download-button{
-    margin-left: 26.88px;
-    padding: 8px 16px 8px 16px;
-}
-
-.body-section .container .row .card .download-button a{
+.body-section .movie-banner a{
     text-decoration: none;
     color: black;
+    /* padding: 8px 16px 8px 16px; */
 }
 
-/* ======== BODY-SECTION-COMPLETE ======== */
+/* ======== BODY-SECTION-START ======== */
