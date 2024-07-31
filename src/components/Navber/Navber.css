@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(16, 16, 16);
+}
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 88vw;
+    margin: auto;
+    height: 60px;
+}
+
+.navber .meddle .navber-links{
+    display: flex;
+    gap: 44px;
+}
+
+.navber .meddle .navber-links li{
+    list-style: none;
+    font-size: 26px;
+    letter-spacing: 3.44px;
+}
+
+.navber .left-side{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.navber .left-side .search-box{
+    display: flex;
+}
+
+.navber .left-side .search-box input{
+    padding: 8px 0 8px 0;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border: none;
+}
+
+.navber .left-side .search-box ::placeholder{
+    text-align: center;
+    letter-spacing: 2px;
+}
