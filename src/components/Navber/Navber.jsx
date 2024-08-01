@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navber.css'
+import search from '../../assets/search.svg'
+import image from '../../assets/image.jpg'
 
 const Navber = () => {
   return (
@@ -22,10 +24,10 @@ const Navber = () => {
             
             <div className="left-side">
                 <div className="search-box">
-                    <input type="text" placeholder='search-here' /><button className="search-button"></button>
+                    <input type="text" placeholder='search-here' /><button className="search-button"><img src={search} className='search-icon' /></button>
                 </div>
                 <div className="user">
-                    <button className="user-button"></button>
+                    <button className="user-button"><img src={image} className='user-icon' /></button>
                 </div>
             </div>
         </div>

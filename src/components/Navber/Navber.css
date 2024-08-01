@@ -26,6 +26,12 @@
     list-style: none;
     font-size: 26px;
     letter-spacing: 3.44px;
+    cursor: pointer;
+}
+
+.navber .meddle .navber-links li:hover{
+    text-decoration: underline;
+    transition: all 0.8ms;
 }
 
 .navber .left-side{
@@ -48,4 +54,23 @@
 .navber .left-side .search-box ::placeholder{
     text-align: center;
     letter-spacing: 2px;
+}
+
+.navber .left-side .search-box .search-button{
+    padding: 0 8px 0 8px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: none;
+}
+
+.navber .left-side .user .user-button{
+    border-radius: 50%;
+    border: none;
+    display: flex;
+}
+
+.navber .left-side .user .user-icon{
+    width: 34px;
+    display: flex;
+    border-radius: 50%;
 }
