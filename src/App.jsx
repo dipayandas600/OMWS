@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
-import Home from './components/pages/Home/Home'
+import Navber from '../src/components/Navber'
 
 const App = () => {
   return (
-    <Home/>
+    <Navber/>
   )
 }
 
