@@ -1,0 +1,10 @@
+.slider-container{
+    max-width: 80vw;
+    margin: 68px auto;
+}
+
+.slider-container .sliders .image-sliders{
+    width: 100%;
+    border-radius: 44px;
+    border: 2px solid whitesmoke;
+}
