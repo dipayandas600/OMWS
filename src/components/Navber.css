@@ -1,13 +1,14 @@
-.header{
-    background-color: rgb(16, 16, 16);
-}
-
 .header .navber{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    max-width: 80vw;
+    /* max-width: 80vw; */
+    padding: 0 188px 0 188px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--header-color);
     margin: auto;
 }
 
