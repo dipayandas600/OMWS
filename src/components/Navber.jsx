@@ -18,7 +18,7 @@ const Navber = () => {
           <li>Gondras</li>
         </ul>
             
-        <div className="user">
+        <div className="search-and-user">
           <div className="search-box">
             <input type="text" placeholder='search-here' /><button className="search-button"><img src={search} className='search-icon' /></button>
           </div>
